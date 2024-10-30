@@ -17,6 +17,7 @@
             height: 100vh;
             padding: 1em;
             box-sizing: border-box;
+            overflow: hidden; /* Ascunde scroll-ul */
         }
         pre {
             word-wrap: break-word;
@@ -26,7 +27,9 @@
             padding: 1em;
             border-radius: 8px;
             max-width: 100%;
+            max-height: 100%; /* Asigură-te că nu depășește înălțimea */
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            overflow-y: hidden; /* Dezactivează scroll-ul vertical */
         }
         a {
             color: #8be9fd;
@@ -39,7 +42,7 @@
 </head>
 <body>
     <pre>🌐 <a href="https://repo.colddev.dev">https://repo.colddev.dev</a>
-========================
+==========================
 
 This URL is a shorthand version of <a href="https://hub.colddev.dev/repository/public-releases/">https://hub.colddev.dev/repository/public-releases/</a>
 
